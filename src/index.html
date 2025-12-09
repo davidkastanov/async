@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="input_container">
+        <label for="minutes">
+            Time(minutes)
+            <input type="number" id="minutes" placeholder="Enter minutes" value="5" min="1" max="180">
+        </label>
+    </div>
+
+    <p id="status">Ready to go</p>
+
+    <p id="timer" >05:00</p>
+
+    <div id="progres">
+        <div id="bar"></div>
+    </div>
+
+    <div id="">
+        <button id="start_btn">start</button>
+        <button id="pause_btn">pause</button>
+        <button id="reset_btn">reset</button>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
